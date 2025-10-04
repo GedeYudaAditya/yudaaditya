@@ -57,12 +57,18 @@
 
     <!-- Main content -->
     <main class="flex-1 p-6 md:ml-56 space-y-20">
-        <section id="about" class="min-h-screen flex flex-col justify-center">
-            <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-4">About Me</h2>
-            <p class="text-gray-600 dark:text-gray-300 max-w-xl">
-                Halo, saya Yuda Aditya! Saya seorang Web Developer yang suka membangun aplikasi web modern
-                dengan Laravel, Tailwind, dan teknologi lainnya.
-            </p>
+        <section id="about" class="min-h-screen flex flex-col justify-start">
+            <div class="bg-slate-400/10 backdrop-blur-md rounded-lg p-4 mb-10">
+                <img src="{{ asset('assets/image/lilith.png') }}" alt="Profile"
+                    class="w-full h-96 object-cover rounded-lg">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-4">About Me</h2>
+                <p class="text-gray-600 dark:text-gray-300 max-w-xl">
+                    Halo, saya Yuda Aditya! Saya seorang Web Developer yang suka membangun aplikasi web modern
+                    dengan Laravel, Tailwind, dan teknologi lainnya.
+                </p>
+            </div>
         </section>
 
         <section id="skills" class="min-h-screen flex flex-col justify-center">
